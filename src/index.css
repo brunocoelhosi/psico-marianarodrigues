@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Se você quiser adicionar as cores da logo da Mariana diretamente no CSS (padrão v4): */
+@theme {
+  --color-brand-green: #48ab79;
+  --color-brand-blue: #93c5d3;
+  --color-brand-blue2: #82c8d4;
+  --color-brand-blue3: #5b9aa5;
+  --color-brand-orange: #f5a66b;
+  --color-brand-lime: #cbd976;
+  --color-brand-dark: #4a6066;
+}
+
+/* 1. O fundo de "trás" do site (a mesa onde o card está apoiado) */
+body {
+  background-color: #82c8d4; /* Um cinza azulado ou a cor brand-blue bem clarinha */
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. O Card do Site */
+#root {
+  max-width: 95%; /* Ajustado para 95% para não ficar espremido no mobile */
+  margin: 20px auto; /* O primeiro valor cria o espaço no topo e no fundo */
+
+  /* A cor de fundo interna do site (o Off-White que sugerimos) */
+  background-color: #f8fafb;
+
+  /* Bordas arredondadas e sombra para o efeito de "card" */
+  border-radius: 2.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  min-height: calc(
+    100vh - 40px
+  ); /* Garante que o card ocupe a tela menos o margin */
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden; /* Importante para a imagem da Hero não "vazar" a borda redonda */
+}
