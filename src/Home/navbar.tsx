@@ -1,3 +1,5 @@
+import bg from "../assets/1.png";
+
 export function Navbar() {
   return (
     <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
@@ -5,9 +7,9 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <div>
             <img
-              src="src/assets/1.png"
-              alt="Mariana Rodrigues Logo"
+              src={bg}
               className="h-8 md:h-35 object-contain opacity-90 hover:opacity-100"
+              alt="Background"
             />
           </div>
         </div>

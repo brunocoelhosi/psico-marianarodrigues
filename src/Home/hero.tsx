@@ -1,4 +1,5 @@
 import { MessageCircle } from "lucide-react";
+import bg from "../assets/6.png";
 
 export function Hero() {
   return (
@@ -8,7 +9,7 @@ export function Hero() {
     >
       {/* 1. Imagem de Fundo (z-0) */}
       <img
-        src="src/assets/6.png"
+        src={bg}
         className="absolute inset-0 w-full h-full object-cover z-0"
         alt="Background"
       />
@@ -22,7 +23,7 @@ export function Hero() {
           <div className="space-y-6 text-center md:text-left">
             <h2 className="text-4xl md:text-5xl font-extrabold text-brand-dark leading-[1.1]">
               Apoio Especializado para o{" "}
-              <span className="text-brand-blue2">Desenvolvimento</span> do Seu
+              <span className="text-brand-blue2 ">Desenvolvimento</span> do Seu
               Filho
             </h2>
 
