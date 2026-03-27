@@ -30,7 +30,7 @@ export function Navbar() {
           </a>
         </nav>
 
-        <button className="flex items-center  gap-2 bg-brand-blue2 hover:bg-sky-300 text-white px-6 py-2.5 rounded-full font-semibold transition shadow-lg shadow-sky-200">
+        <button className="cursor-pointer flex items-center  gap-2 bg-brand-blue2 hover:bg-brand-orange text-white px-6 py-2.5 rounded-full font-semibold transition shadow-lg shadow-sky-200">
           Agendar Consulta
           <MessageCircleCheck className="text-white" />
         </button>

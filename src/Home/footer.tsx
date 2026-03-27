@@ -1,11 +1,12 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+
 export function Footer() {
   return (
-    <footer className="bg-brand-blue3 text-slate-300 py-16">
+    <footer className="text-white/80 bg-brand-blue3 text-slate-300 py-16">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-12">
         <div className="space-y-4">
-          <h4 className="text-white font-bold text-lg">Mariana Rodrigues</h4>
-          <p className="text-sm">
+          <h4 className=" font-bold text-lg">Mariana Rodrigues</h4>
+          <p className=" text-sm">
             Especialista em Psicologia infantil, dedicada a transformar a vida
             de crianças e suas famílias em Uberlândia.
           </p>
@@ -32,13 +33,19 @@ export function Footer() {
         </div>
 
         <div className="bg-brand-blue2 p-6 rounded-2xl">
-          <h4 className="text-white font-bold mb-4">Horário de Atendimento</h4>
-          <p className="text-white text-sm">Segunda a Sexta: 08:00 às 18:00</p>
-          <p className="text-white text-sm">Sábado: 08:00 às 12:00</p>
+          <h4 className=" font-bold mb-4">Horário de Atendimento</h4>
+          <p className=" text-sm">Segunda a Sexta: 08:00 às 18:00</p>
+          <p className=" text-sm">Sábado: 08:00 às 12:00</p>
         </div>
       </div>
       <div className="text-center mt-16 pt-8 border-t border-brand-blue2 text-xs">
-        © 2026 Mariana Rodrigues. Todos os direitos reservados.
+        <p>© 2026 Mariana Rodrigues. Todos os direitos reservados.</p>
+        <p>
+          Desenvolvido por{" "}
+          <a href="https://www.linkedin.com/in/bruno-coelho-13009a207/">
+            Bruno Coelho
+          </a>
+        </p>
       </div>
     </footer>
   );

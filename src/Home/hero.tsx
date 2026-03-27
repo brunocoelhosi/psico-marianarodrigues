@@ -6,7 +6,7 @@ export function Hero() {
     <section id="inicio" className="pt-12 pb-20 px-4">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-center md:text-left">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-800 leading-[1.1]">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-slate-800 leading-[1.1]">
             Apoio Especializado para o{" "}
             <span className="text-brand-blue2">Desenvolvimento</span> do Seu
             Filho
@@ -17,13 +17,17 @@ export function Hero() {
             conquistas.
           </p>
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            <button className="bg-brand-orange text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/25">
-              Conhecer Especialidades
-            </button>
-            <button className="flex items-center gap-2 bg-white border-2 border-slate-100 px-8 py-4 rounded-2xl hover:scale-105 font-bold text-lg hover:bg-slate-50 transition shadow-xl shadow-brand-green/25">
-              <MessageCircle className="text-brand-green" /> Fale conosco no
-              WhatsApp
-            </button>
+            <a href="#atuacao">
+              <button className="bg-brand-orange text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/25 cursor-pointer">
+                Conhecer Especialidades
+              </button>
+            </a>
+            <a href="https://wa.me/+5534996373011">
+              <button className="flex items-center gap-2 bg-white border-2 border-slate-100 px-8 py-4 rounded-2xl hover:scale-105 font-bold text-lg hover:bg-slate-50 transition shadow-xl shadow-brand-green/25 cursor-pointer">
+                <MessageCircle className="text-brand-green" /> Fale conosco no
+                WhatsApp
+              </button>
+            </a>
           </div>
         </div>
         <div className="relative">
