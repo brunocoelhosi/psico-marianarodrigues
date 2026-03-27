@@ -7,7 +7,6 @@ import Consultorio from "./Home/consultorio";
 import Footer from "./Home/footer";
 import Atuacao from "./Home/atuacao";
 import SobreMim from "./Home/sobre";
-import h1 from "./assets/hero1.jfif";
 
 function App() {
   return (
