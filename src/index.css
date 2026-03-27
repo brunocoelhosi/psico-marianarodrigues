@@ -24,7 +24,7 @@ body {
   margin: 20px auto; /* O primeiro valor cria o espaço no topo e no fundo */
 
   /* A cor de fundo interna do site (o Off-White que sugerimos) */
-  background-color: #f8fafb;
+  background-color: #f3f5f8;
 
   /* Bordas arredondadas e sombra para o efeito de "card" */
   border-radius: 2.5rem;

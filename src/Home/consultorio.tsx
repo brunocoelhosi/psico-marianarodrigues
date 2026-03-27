@@ -1,5 +1,8 @@
 import React from "react";
 import { Zap, Puzzle, type LucideIcon } from "lucide-react";
+import a1 from "../assets/a1.png";
+import a3 from "../assets/a3.png";
+import a4 from "../assets/a4.png";
 
 interface CardConsultorio {
   titulo: string;
@@ -17,7 +20,7 @@ const Consultorio: React.FC = () => {
         "Espaço projetado para que a criança se sinta segura e à vontade.",
       icone: Zap,
       cor: "brand-green",
-      imagem: "src/assets/consultorio-1.jpg",
+      imagem: a3,
     },
     {
       titulo: "Recursos Lúdicos",
@@ -25,7 +28,7 @@ const Consultorio: React.FC = () => {
         "Materiais terapêuticos específicos para intervenções de TDAH e Autismo.",
       icone: Puzzle,
       cor: "brand-blue",
-      imagem: "src/assets/consultorio-2.jpg",
+      imagem: a1,
     },
     {
       titulo: "Foco na Criança",
@@ -33,7 +36,7 @@ const Consultorio: React.FC = () => {
         "Atendimento humanizado, respeitando a individualidade de cada pequeno.",
       icone: Puzzle,
       cor: "brand-orange",
-      imagem: "src/assets/consultorio-3.jpg",
+      imagem: a4,
     },
   ];
 

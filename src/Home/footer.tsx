@@ -31,13 +31,13 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="bg-emerald-700 p-6 rounded-2xl">
+        <div className="bg-brand-blue2 p-6 rounded-2xl">
           <h4 className="text-white font-bold mb-4">Horário de Atendimento</h4>
-          <p className="text-sm">Segunda a Sexta: 08:00 às 18:00</p>
-          <p className="text-sm">Sábado: 08:00 às 12:00</p>
+          <p className="text-white text-sm">Segunda a Sexta: 08:00 às 18:00</p>
+          <p className="text-white text-sm">Sábado: 08:00 às 12:00</p>
         </div>
       </div>
-      <div className="text-center mt-16 pt-8 border-t border-slate-800 text-xs">
+      <div className="text-center mt-16 pt-8 border-t border-brand-blue2 text-xs">
         © 2026 Mariana Rodrigues. Todos os direitos reservados.
       </div>
     </footer>

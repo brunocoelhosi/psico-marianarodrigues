@@ -1,5 +1,6 @@
 import React from "react";
 import { Award, Target, Star, type LucideIcon } from "lucide-react";
+import im from "../assets/img1.jpg";
 
 interface Diferencial {
   icone: LucideIcon;
@@ -23,7 +24,7 @@ const SobreMim: React.FC = () => {
 
           <div className="relative w-full max-w-sm rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white">
             <img
-              src="src/assets/mariana-perfil.jpg"
+              src={im}
               alt="Dra. Mariana Rodrigues"
               className="w-full h-auto object-cover"
             />

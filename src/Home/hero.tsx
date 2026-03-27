@@ -1,48 +1,38 @@
 import { MessageCircle } from "lucide-react";
-import bg from "../assets/6.png";
+import h1 from "../assets/hero1.jfif";
 
 export function Hero() {
   return (
-    <section
-      id="inicio"
-      className="relative min-h-[50vh] md:min-h-[450px] flex items-center overflow-hidden "
-    >
-      {/* 1. Imagem de Fundo (z-0) */}
-      <img
-        src={bg}
-        className="absolute inset-0 w-full h-full object-cover z-0"
-        alt="Background"
-      />
-
-      {/* 2. Camada de Overlay (ESSENCIAL para o texto aparecer) */}
-      <div className="absolute inset-0 bg-white/5 backdrop-blur-[2px] z-10"></div>
-
-      {/* 3. Container de Conteúdo (Adicionei z-20 aqui) */}
-      <div className="relative z-20 max-w-7xl mx-auto px-4 w-full">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 text-center md:text-left">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-brand-dark leading-[1.1]">
-              Apoio Especializado para o{" "}
-              <span className="text-brand-blue2 ">Desenvolvimento</span> do Seu
-              Filho
-            </h2>
-
-            <p className="text-lg text-brand-dark/80 max-w-lg mx-auto md:mx-0">
-              Psicoterapia focada em TDAH e Autismo com acolhimento, ludicidade
-              e base científica para transformar desafios em conquistas.
-            </p>
-
-            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-              <button className="bg-brand-orange text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/20">
-                Conhecer Especialidades
-              </button>
-
-              <button className="flex items-center gap-2 bg-white/80 border-2 border-brand-green/20 text-brand-dark px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-green/5 transition">
-                <MessageCircle className="text-brand-green" />
-                Agende sua consulta no WhatsApp
-              </button>
-            </div>
+    <section id="inicio" className="pt-12 pb-20 px-4">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="space-y-6 text-center md:text-left">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-800 leading-[1.1]">
+            Apoio Especializado para o{" "}
+            <span className="text-brand-blue2">Desenvolvimento</span> do Seu
+            Filho
+          </h2>
+          <p className="text-lg text-slate-600 max-w-lg mx-auto md:mx-0">
+            Psicoterapia focada em TDAH, TOD e Autismo com acolhimento,
+            ludicidade e base científica para transformar desafios em
+            conquistas.
+          </p>
+          <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+            <button className="bg-brand-orange text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/25">
+              Conhecer Especialidades
+            </button>
+            <button className="flex items-center gap-2 bg-white border-2 border-slate-100 px-8 py-4 rounded-2xl hover:scale-105 font-bold text-lg hover:bg-slate-50 transition shadow-xl shadow-brand-green/25">
+              <MessageCircle className="text-brand-green" /> Fale conosco no
+              WhatsApp
+            </button>
           </div>
+        </div>
+        <div className="relative">
+          <div className="absolute -z-10 w-full h-full bg-emerald-100 rounded-3xl rotate-3 transform"></div>
+          <img
+            src={h1}
+            alt="Criança brincando e psicóloga"
+            className="rounded-3xl shadow-2xl object-cover h-[400px] w-full"
+          />
         </div>
       </div>
     </section>
