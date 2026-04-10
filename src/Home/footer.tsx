@@ -11,7 +11,9 @@ export function Footer() {
             de crianças e suas famílias em Uberlândia.
           </p>
           <div className="flex gap-4">
-            <Mail className="cursor-pointer hover:text-emerald-400" />
+            <a href="mailto:anairambest90@gmail.com">
+              <Mail className="cursor-pointer hover:text-emerald-400" />
+            </a>
             <Mail className="cursor-pointer hover:text-emerald-400" />
           </div>
         </div>

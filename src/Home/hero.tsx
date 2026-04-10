@@ -8,7 +8,7 @@ export function Hero() {
         <div className="space-y-6 text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-extrabold text-slate-800 leading-[1.1]">
             Apoio Especializado para o{" "}
-            <span className="text-brand-blue2">Desenvolvimento</span> do Seu
+            <span className="text-brand-orange">Desenvolvimento</span> do Seu
             Filho
           </h2>
           <p className="text-lg text-slate-600 max-w-lg mx-auto md:mx-0">
@@ -18,12 +18,12 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <a href="#atuacao">
-              <button className="bg-brand-orange text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/25 cursor-pointer">
+              <button className="bg-brand-orange hover:bg-brand-blue2  text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/40 cursor-pointer">
                 Conhecer Especialidades
               </button>
             </a>
             <a href="https://wa.me/+5534996373011">
-              <button className="flex items-center gap-2 bg-white border-2 border-slate-100 px-8 py-4 rounded-2xl hover:scale-105 font-bold text-lg hover:bg-slate-50 transition shadow-xl shadow-brand-green/25 cursor-pointer">
+              <button className="flex items-center gap-2 hover:text-brand-green hover:bg-slate-50  bg-white border-2 border-slate-100 px-8 py-4 rounded-2xl hover:scale-105 font-bold text-lg  transition shadow-xl shadow-brand-green/25 cursor-pointer">
                 <MessageCircle className="text-brand-green" /> Fale conosco no
                 WhatsApp
               </button>

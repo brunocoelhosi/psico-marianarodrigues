@@ -22,7 +22,9 @@ export function Atuacao() {
             <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition">
               <Puzzle className="text-orange-600" size={32} />
             </div>
-            <h4 className="text-xl font-bold mb-3">TDAH</h4>
+            <h4 className="text-xl font-bold mb-3">
+              Transtorno de Déficit de Atenção e Hiperatividade (TDAH)
+            </h4>
             <p className="text-slate-600 leading-relaxed">
               Foco em organização, regulação emocional e estratégias
               comportamentais para o dia a dia escolar e familiar.

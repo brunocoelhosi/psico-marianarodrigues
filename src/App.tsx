@@ -11,9 +11,8 @@ import SobreMim from "./Home/sobre";
 function App() {
   return (
     <>
-      <div className="bg-brand-bg min-h-[90vh] rounded-[2.5rem] shadow-2xl overflow-hidden border border-white/50 ">
+      <div className="bg-brand-bg  min-h-[90vh] rounded-[2.5rem] shadow-2xl overflow-hidden border border-white/50 ">
         <Navbar />
-
         <Hero />
         <Atuacao />
         <Consultorio />

@@ -41,7 +41,7 @@ const SobreMim: React.FC = () => {
               Mariana Rodrigues
             </h2>
             <p className="text-lg font-medium text-brand-blue">
-              Psicóloga Infantil | CRP 00/00000
+              Psicóloga Infantil | CRP 04/73272
             </p>
           </header>
 
