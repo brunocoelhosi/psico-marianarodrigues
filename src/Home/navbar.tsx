@@ -64,7 +64,7 @@ export function Navbar() {
       <header
         className={`fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-in-out border border-slate-100 shadow-lg w-[95%] max-w-6xl overflow-hidden
           ${isScrolled ? "top-5 opacity-100 translate-y-0" : "top-0 opacity-0 -translate-y-full pointer-events-none"}
-          ${isMenuOpen ? "rounded-[2rem]" : "rounded-full"} 
+          ${isMenuOpen ? "rounded-4xl" : "rounded-full"} 
         `}
       >
         {/* Fundo isolado da pílula */}
@@ -107,7 +107,7 @@ export function Navbar() {
 const MobileDropdown = ({ isOpen, onClose, isPillVersion }: DropdownProps) => (
   <div
     className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out
-      ${isOpen ? "max-h-[400px] opacity-100 pb-6" : "max-h-0 opacity-0 pointer-events-none"}
+      ${isOpen ? "max-h-100 opacity-100 pb-6" : "max-h-0 opacity-0 pointer-events-none"}
     `}
   >
     <nav
@@ -159,11 +159,13 @@ const MenuLinks = ({ onClick, isMobile }: MenuLinksProps) => {
 };
 
 const ActionButton = ({ className }: { className: string }) => (
-  <button
-    className={`bg-brand-blue2 text-white rounded-full font-semibold transition-all hover:bg-brand-orange shadow-md flex items-center gap-2 ${className}`}
-  >
-    Agendar Consulta <MessageCircleCheck className="w-4 h-4" />
-  </button>
+  <a target="_blank" href="https://wa.me/+5534996373011">
+    <button
+      className={`bg-brand-blue2 text-white rounded-full font-semibold transition-all hover:bg-brand-orange shadow-md flex items-center gap-2 ${className} cursor-pointer`}
+    >
+      Agendar Consulta <MessageCircleCheck className="w-4 h-4" />
+    </button>
+  </a>
 );
 
 const HamburguerButton = ({

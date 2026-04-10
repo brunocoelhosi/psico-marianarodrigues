@@ -1,5 +1,5 @@
 import React from "react";
-import { Zap, HouseHeart, Puzzle, Baby, type LucideIcon } from "lucide-react";
+import { HouseHeart, Puzzle, Baby, type LucideIcon } from "lucide-react";
 import a1 from "../assets/a1.png";
 import a3 from "../assets/a3.png";
 import a4 from "../assets/a4.png";

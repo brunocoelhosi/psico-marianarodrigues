@@ -35,7 +35,7 @@ export function Hero() {
           <img
             src={h1}
             alt="Criança brincando e psicóloga"
-            className="rounded-3xl shadow-2xl object-cover h-[400px] w-full"
+            className="rounded-3xl shadow-2xl object-cover h-100 w-full"
           />
         </div>
       </div>
