@@ -1,5 +1,5 @@
 import React from "react";
-import { Zap, Puzzle, type LucideIcon } from "lucide-react";
+import { HouseHeart, Puzzle, Baby, type LucideIcon } from "lucide-react";
 import a1 from "../assets/a1.png";
 import a3 from "../assets/a3.png";
 import a4 from "../assets/a4.png";
@@ -18,7 +18,7 @@ const Consultorio: React.FC = () => {
       titulo: "Ambiente Acolhedor",
       descricao:
         "Espaço projetado para que a criança se sinta segura e à vontade.",
-      icone: Zap,
+      icone: HouseHeart,
       cor: "brand-green",
       imagem: a3,
     },
@@ -34,7 +34,7 @@ const Consultorio: React.FC = () => {
       titulo: "Foco na Criança",
       descricao:
         "Atendimento humanizado, respeitando a individualidade de cada pequeno.",
-      icone: Puzzle,
+      icone: Baby,
       cor: "brand-orange",
       imagem: a4,
     },

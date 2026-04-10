@@ -41,7 +41,7 @@ const SobreMim: React.FC = () => {
               Mariana Rodrigues
             </h2>
             <p className="text-lg font-medium text-brand-blue">
-              Psicóloga Infantil | CRP 00/00000
+              Psicóloga Infantil | CRP 04/73272
             </p>
           </header>
 
@@ -64,7 +64,7 @@ const SobreMim: React.FC = () => {
                 className="flex items-center gap-3 bg-white p-3 rounded-2xl border border-brand-green/5 shadow-sm"
               >
                 <div
-                  className={`w-10 h-10 flex-shrink-0 rounded-xl flex items-center justify-center bg-brand-${item.cor}/10`}
+                  className={`w-10 h-10 shrink-0 rounded-xl flex items-center justify-center bg-brand-${item.cor}/10`}
                 >
                   <item.icone className={`text-brand-${item.cor}`} size={20} />
                 </div>
