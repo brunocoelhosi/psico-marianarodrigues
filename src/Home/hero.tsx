@@ -8,7 +8,7 @@ export function Hero() {
         <div className="space-y-6 text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-extrabold text-slate-800 leading-[1.1]">
             Apoio Especializado para o{" "}
-            <span className="text-brand-orange">Desenvolvimento</span> do Seu
+            <span className="text-brand-green2">Desenvolvimento</span> do Seu
             Filho
           </h2>
           <p className="text-lg text-slate-600 max-w-lg mx-auto md:mx-0">
@@ -18,7 +18,7 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <a href="#atuacao">
-              <button className="bg-brand-orange hover:bg-brand-blue2  text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-orange/40 cursor-pointer">
+              <button className="bg-brand-green2  text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-green2/50 cursor-pointer">
                 Conhecer Especialidades
               </button>
             </a>

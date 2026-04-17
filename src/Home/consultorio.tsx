@@ -73,7 +73,7 @@ const Consultorio: React.FC = () => {
               <h3 className="text-xl font-bold text-brand-dark mb-3">
                 {card.titulo}
               </h3>
-              <p className="text-sm text-brand-dark/80 leading-relaxed">
+              <p className="text-sm text-brand-dark leading-relaxed">
                 {card.descricao}
               </p>
             </div>

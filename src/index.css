@@ -3,9 +3,11 @@
 /* Se você quiser adicionar as cores da logo da Mariana diretamente no CSS (padrão v4): */
 @theme {
   --color-brand-green: #48ab79;
+  --color-brand-green2: #0f766e;
   --color-brand-blue: #93c5d3;
   --color-brand-blue2: #82c8d4;
-  --color-brand-blue3: #5b9aa5;
+  --color-brand-blue3: #1f4e57;
+  --color-brand-blue4: #295766;
   --color-brand-orange: #f5a66b;
   --color-brand-lime: #cbd976;
   --color-brand-dark: #4a6066;

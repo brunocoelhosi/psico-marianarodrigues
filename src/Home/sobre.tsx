@@ -34,13 +34,13 @@ const SobreMim: React.FC = () => {
         {/* Lado do Texto */}
         <div className="space-y-6">
           <header>
-            <span className="text-brand-green font-bold text-sm tracking-widest uppercase">
+            <span className="text-brand-green2 font-bold text-sm tracking-widest uppercase">
               Sobre Mim
             </span>
             <h2 className="text-4xl font-extrabold text-brand-dark mt-2">
               Mariana Rodrigues
             </h2>
-            <p className="text-lg font-medium text-brand-blue">
+            <p className="text-lg font-medium text-sky-600">
               Psicóloga Infantil | CRP 04/73272
             </p>
           </header>

@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="text-white/90 bg-brand-blue3 py-16">
+    <footer className="text-white/90 bg-brand-blue3/90 py-16">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-12">
         <div className="space-y-4">
           <h4 className=" font-bold text-lg">Mariana Rodrigues</h4>
