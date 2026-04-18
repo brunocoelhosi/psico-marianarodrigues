@@ -9,21 +9,21 @@ import WppFloatingButton from "./components/WppFloatingButton";
 
 function App() {
   return (
-    <>
-      <div className="bg-brand-bg  min-h-[90vh] rounded-[2.5rem] shadow-2xl overflow-hidden border border-white/50 ">
-        <nav>
-          <Navbar />
-        </nav>
-        <main>
-          <Hero />
-          <Atuacao />
-          <Consultorio />
-          <SobreMim />
-        </main>
-        <Footer />
-        <WppFloatingButton />
-      </div>
-    </>
+    <div className="bg-brand-bg  min-h-[90vh] rounded-[2.5rem] shadow-2xl overflow-hidden border border-white/50 ">
+      <header>
+        <Navbar />
+      </header>
+
+      <main>
+        <Hero />
+        <Atuacao />
+        <Consultorio />
+        <SobreMim />
+      </main>
+
+      <Footer />
+      <WppFloatingButton />
+    </div>
   );
 }
 

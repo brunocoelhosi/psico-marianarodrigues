@@ -33,7 +33,7 @@ export function Navbar() {
       <header className="relative w-full z-50">
         {/* Camada de Fundo Isolada para o Blur */}
         <div
-          className={`absolute inset-0 -z-10 border-b border-slate-100 transition-all duration-300
+          className={`absolute inset-0 -z-10 border-b border-slate-100 transition-all duration-300 ease-in-out
           ${isMenuOpen && !isScrolled ? "bg-white shadow-lg rounded-b-3xl" : "bg-white/80 backdrop-blur-md"}
         `}
         />
@@ -61,7 +61,7 @@ export function Navbar() {
       </header>
 
       {/* 2. NAVBAR PÍLULA */}
-      <header
+      <div
         className={`fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-in-out border border-slate-100 shadow-lg w-[95%] max-w-6xl overflow-hidden
           ${isScrolled ? "top-5 opacity-100 translate-y-0" : "top-0 opacity-0 -translate-y-full pointer-events-none"}
           ${isMenuOpen ? "rounded-4xl" : "rounded-full"} 
@@ -91,7 +91,7 @@ export function Navbar() {
             isPillVersion
           />
         )}
-      </header>
+      </div>
 
       {/* Backdrop de Blur do Fundo (O que borra o site abaixo da nav) */}
       <div
@@ -149,7 +149,7 @@ const MenuLinks = ({ onClick, isMobile }: MenuLinksProps) => {
           key={link.name}
           href={link.href}
           onClick={onClick}
-          className="hover:text-brand-blue2 transition-colors"
+          className="hover:text-brand-blue2 px-1 py-1 transition-colors"
         >
           {link.name}
         </a>
@@ -159,12 +159,12 @@ const MenuLinks = ({ onClick, isMobile }: MenuLinksProps) => {
 };
 
 const ActionButton = ({ className }: { className: string }) => (
-  <a target="_blank" href="https://wa.me/+5534996373011">
-    <button
-      className={`bg-brand-blue2 text-white rounded-full font-semibold transition-all hover:bg-brand-orange shadow-md flex items-center gap-2 ${className} cursor-pointer`}
-    >
-      Agendar Consulta <MessageCircleCheck className="w-4 h-4" />
-    </button>
+  <a
+    target="_blank"
+    href="https://wa.me/+5534996373011"
+    className={`bg-brand-blue2 hover:scale-105 text-white rounded-full font-semibold transition-all hover:bg-brand-orange shadow-md flex items-center gap-2 ${className} cursor-pointer`}
+  >
+    Agendar Consulta <MessageCircleCheck className="w-4 h-4" />
   </a>
 );
 
@@ -176,8 +176,9 @@ const HamburguerButton = ({
   isMenuOpen: boolean;
 }) => (
   <button
+    aria-label="Abrir menu"
     onClick={() => setIsMenuOpen(!isMenuOpen)}
-    className="md:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-full"
+    className="md:hidden p-3 min-w-11 min-h-11 text-slate-600 hover:bg-slate-100 rounded-full"
   >
     {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
   </button>

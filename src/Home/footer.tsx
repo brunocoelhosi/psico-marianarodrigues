@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="text-white bg-brand-blue3/90 py-16">
+    <footer className="text-white bg-brand-blue3/90 py-16 rounded-b-[2.5rem] ">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-12">
         <div className="space-y-4">
           <h4 className=" font-bold text-lg">Mariana Rodrigues</h4>
@@ -12,7 +12,11 @@ export function Footer() {
           </p>
           <div className="flex gap-4 items-center">
             {/* EMAIL */}
-            <a href="mailto:anairambest90@gmail.com" className="group">
+            <a
+              href="mailto:anairambest90@gmail.com"
+              className="group"
+              aria-label="Entrar em contato por e-mail"
+            >
               <Mail className="w-7 h-7 text-white transition-colors duration-300 group-hover:text-emerald-400 cursor-pointer" />
             </a>
 
@@ -20,6 +24,7 @@ export function Footer() {
             <a
               href="https://www.instagram.com/srodriguesmari_/"
               target="_blank"
+              aria-label="Visitar instragram da psicologa"
               rel="noopener noreferrer"
               className="group flex items-center justify-center transition-all duration-300"
             >
@@ -52,7 +57,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="bg-brand-blue2/40 p-6 rounded-2xl">
+        <div className="bg-brand-blue2/20 p-6 rounded-2xl">
           <h4 className=" font-bold mb-4">Horário de Atendimento</h4>
           <p className=" text-sm">Segunda a Sexta: 08:00 às 18:00</p>
           <p className=" text-sm">Sábado: 08:00 às 12:00</p>

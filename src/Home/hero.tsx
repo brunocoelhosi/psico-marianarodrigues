@@ -18,7 +18,10 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <a href="#atuacao">
-              <button className="bg-brand-green2  text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-green2/50 cursor-pointer">
+              <button
+                className="bg-brand-green2  text-white  px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-brand-green2/50 cursor-pointer"
+                aria-label="Conheça as especialidades"
+              >
                 Conhecer Especialidades
               </button>
             </a>

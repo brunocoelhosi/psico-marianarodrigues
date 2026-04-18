@@ -40,7 +40,7 @@ const SobreMim: React.FC = () => {
             <h2 className="text-4xl font-extrabold text-brand-dark mt-2">
               Mariana Rodrigues
             </h2>
-            <p className="text-lg font-medium text-sky-600">
+            <p className="text-lg font-medium text-sky-700">
               Psicóloga Infantil | CRP 04/73272
             </p>
           </header>
@@ -68,7 +68,7 @@ const SobreMim: React.FC = () => {
                 >
                   <item.icone className={`text-brand-${item.cor}`} size={20} />
                 </div>
-                <span className="text-xs font-bold text-brand-dark leading-tight">
+                <span className="text-xs font-bold text-black leading-tight">
                   {item.texto}
                 </span>
               </div>
