@@ -1,6 +1,4 @@
 import "./App.css";
-import { MessageCircleCheck } from "lucide-react";
-
 import Navbar from "./Home/navbar";
 import Hero from "./Home/hero";
 import Consultorio from "./Home/consultorio";
