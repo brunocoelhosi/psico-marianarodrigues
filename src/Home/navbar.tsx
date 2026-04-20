@@ -15,9 +15,13 @@ interface DropdownProps {
   isPillVersion?: boolean;
 }
 
-export function Navbar() {
+interface NavbarProps {
+  isMenuOpen: boolean;
+  setIsMenuOpen: (value: boolean) => void;
+}
+
+export function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
