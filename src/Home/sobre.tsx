@@ -34,13 +34,13 @@ const SobreMim: React.FC = () => {
         {/* Lado do Texto */}
         <div className="space-y-6">
           <header>
-            <span className="text-brand-green font-bold text-sm tracking-widest uppercase">
+            <span className="text-brand-green2 font-bold text-sm tracking-widest uppercase">
               Sobre Mim
             </span>
             <h2 className="text-4xl font-extrabold text-brand-dark mt-2">
               Mariana Rodrigues
             </h2>
-            <p className="text-lg font-medium text-brand-blue">
+            <p className="text-lg font-medium text-sky-700">
               Psicóloga Infantil | CRP 04/73272
             </p>
           </header>
@@ -68,7 +68,7 @@ const SobreMim: React.FC = () => {
                 >
                   <item.icone className={`text-brand-${item.cor}`} size={20} />
                 </div>
-                <span className="text-xs font-bold text-brand-dark leading-tight">
+                <span className="text-xs font-bold text-black leading-tight">
                   {item.texto}
                 </span>
               </div>
