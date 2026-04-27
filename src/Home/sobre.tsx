@@ -16,7 +16,7 @@ const SobreMim: React.FC = () => {
   ];
 
   return (
-    <section id="sobre" className="py-20 px-6">
+    <section id="sobre" className="py-20 px-6 ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Lado da Foto */}
         <div className="relative flex justify-center">
